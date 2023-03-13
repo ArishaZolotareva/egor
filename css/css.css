@@ -1,0 +1,15 @@
+.cssQadrat{
+    background-color: darkseagreen;
+    height: 100px;
+    width: 100px;
+}
+.pont {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(rgb(245, 74, 74), rgb(245, 165, 74), rgb(245, 242, 74),rgb(74, 245, 83),rgb(74, 177, 245),rgb(85, 74, 245),rgb(205, 74, 245),rgb(245, 74, 174),rgb(245, 74, 74));
+    background-position: 0 0;
+    animation: background 2s infinite alternate;
+}
+@keyframes background {
+    100% {
+      background-position: 0 200px;}}
