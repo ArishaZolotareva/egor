@@ -1,5 +1,43 @@
-.qadrat{
-    background-color: darkseagreen;
+#body{
+   
+display: inline-block;
+}
+.header{
+    background-color: rgb(216, 224, 173);
+    color: rgb(171, 192, 51);
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.opredelenie{
+    background-color: rgb(216, 224, 173);
+    width: 500px;
+    border: 1px solid rgb(0, 0, 0);
+ 
+    display: flex;
+    justify-content: center;
+       margin: 10px;
+       float: left;
+}
+
+.primeri{
+    background-color: rgb(216, 224, 173);
+    width: 600px;
+    height: 400px;
+    
+    margin: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    display: inline-block;
+ 
+   
+}
+.div{
+    background-color: rgb(206, 219, 128);
     height: 100px;
     width: 100px;
+    float: inline-end;
 }
